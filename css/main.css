@@ -150,7 +150,7 @@ address {
 
 
 /*****Outline*****/
-
+/*****
 .content-wrapper {
   outline: 3px dotted red;
   width: 90%;
@@ -209,6 +209,7 @@ header nav ul li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 500px;
 }
 
 .hero-area h1 {
@@ -216,6 +217,7 @@ header nav ul li {
   line-height: 1.2em;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 aside {
@@ -268,7 +270,7 @@ aside {
 
 .reviews h2 {
   line-height: 1.2em;
-  padding-bottom: 5%;
+  padding-bottom: 30px;
 }
 
 .reviews figure {
@@ -287,6 +289,10 @@ footer {
   background: #202322;
 }
 
+footer p {
+  margin: 0;
+}
+
 footer .content-wrapper {
   width: 55%;
 }
@@ -297,10 +303,6 @@ footer .contact {
 
 address {
   font-style: normal;
-}
-
-footer p {
-  margin: 0;
 }
 
 footer .social-icons {
@@ -357,7 +359,7 @@ footer .copyright {
   background: #2a423a;
 }
 
-.contact-content {
+.contact-content p {
   margin: 0;
 }
 
@@ -378,7 +380,7 @@ footer .copyright {
 }
 
 .faq h2 {
-  margin: 40px;
+  margin-bottom: 40px;
 }
 
 .faq-content {
@@ -388,7 +390,6 @@ footer .copyright {
 .faq-content h4 {
   line-height: 1.5em;
 }
-
 
 aside .form {
   margin-top: 30px;
@@ -512,9 +513,7 @@ input[type=button] {
 
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
   }
-
 
   h1 {
     font-size: 3em;
@@ -608,7 +607,7 @@ input[type=button] {
     width: 65%;
   }
 
-  .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -621,6 +620,11 @@ input[type=button] {
 
   footer h4 {
     font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+    line-height: 1.285em;
   }
 
   footer .social-icons {
@@ -628,13 +632,9 @@ input[type=button] {
     justify-content: space-between;
   }
 
-  footer p {
-    line-height: 1.125em;
-  }
-
   footer .copyright {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 80px;
   }
 
   /*****About Page Styles*****/
@@ -706,8 +706,8 @@ input[type=button] {
     max-width: 960px;
   }
 
-  h1 {
-    font-size: 3.75em;
+  header {
+    padding: 15px 0;
   }
 
   h2 {
@@ -721,11 +721,7 @@ input[type=button] {
 
   p {
     font-size: 1.125em;
-    line-height: 1.5em;
-  }
-
-  header {
-    padding: 15px 0;
+    line-height: 1.333em;
   }
 
   header figure {
@@ -733,7 +729,8 @@ input[type=button] {
   }
 
   .hero-area h1 {
-    width: 80%;
+    font-size: 3.75em;
+    width: 70%;
   }
 
   aside .content-wrapper {
@@ -745,6 +742,10 @@ input[type=button] {
     width: 30%;
   }
 
+  .form-description p {
+    font-size: 1.125em;
+  }
+
   .features h2 {
     width: 90%;
   }
@@ -753,8 +754,16 @@ input[type=button] {
     flex-basis: 33%;
   }
 
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
+
   .reviews article div {
     width: 42%;
+  }
+
+  .footer h4 {
+    font-size: 1.875em;
   }
 
   /*****About Styles*****/
